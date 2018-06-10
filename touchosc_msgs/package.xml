@@ -1,4 +1,5 @@
 <package>
+  <name>touchosc_msgs</name>
   <description brief="touchosc_msgs">
 
       Package containing messages Published and Subscribed to by the default tabpage

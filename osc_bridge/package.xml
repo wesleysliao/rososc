@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>osc_bridge</name>
+  <version>0.0.1</version>
+  <description>
+
+     osc_bridge contains the core functionality of ROS-to-OSC communication.
+
+  </description>
+  <maintainer email="carroll.michael@gmail.com">Michael Carroll</maintainer>
+
+  <license>BSD</license>
+
+
+  <url>http://ros.org/wiki/osc_bridge</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>pybonjour</build_depend>
+  <build_depend>txosc</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>pytouchosc</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+</package>
+
+

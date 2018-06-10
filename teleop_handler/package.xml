@@ -1,4 +1,5 @@
 <package>
+  <name>teleop_handler</name>
   <description brief="teleop_handler">
 
      TouchOSC layout and tabpage handler for publishing teleop messages with an iPhone or iPad.

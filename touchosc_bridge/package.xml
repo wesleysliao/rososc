@@ -1,4 +1,5 @@
 <package>
+  <name>touchosc_bridge</name>
   <description brief="touchosc_bridge">
 
       TouchOSC_bridge provides the core functionality of communicating with ROS and the

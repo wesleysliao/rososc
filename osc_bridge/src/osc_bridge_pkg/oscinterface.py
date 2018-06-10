@@ -2,7 +2,7 @@
 Contains classes and helper functions for interfacing between ROS and OSC
 """
 
-__package__ = 'osc_bridge'
+__package__ = 'osc_bridge_pkg'
 __author__ = 'Michael Carroll <carroll.michael@gmail.com>'
 
 import roslib

@@ -6,12 +6,12 @@ import sys
 
 from twisted.internet import reactor
 
-from osc_bridge.oscinterface import OscInterface
+import osc_bridge_pkg.oscinterface
 
 if __name__ == "__main__":
     def start():
         try:
-            OscInterface("Test", 8000)
+            osc_bridge_pkg.oscinterface.OscInterface("Test", 8000)
         except:
             import traceback
             traceback.print_exc()

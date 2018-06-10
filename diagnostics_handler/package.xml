@@ -1,0 +1,21 @@
+<package>
+  <name>diagnostics_handler</name>
+  <version>0.0.1</version>
+  <description>
+
+      diagnostics_handler provides a layout and tabpage handler for viewing diagnostics
+      and aggregated diagnostics data from ROS on an iOS device with TouchOSC.
+
+  </description>
+  <author>Michael Carroll</author>
+  <maintainer email="mike@todo.com">Michael Carroll</maintainer>
+  <license>BSD</license>]
+  <url>http://ros.org/wiki/diagnostics_handler</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>touchosc_bridge</run_depend>
+  <run_depend>diagnostic_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
+
+
